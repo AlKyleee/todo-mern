@@ -1,0 +1,89 @@
+/* App.css */
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+.todo-listItems {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.todo-listItems th,
+.todo-listItems td {
+  padding: 10px;
+  text-align: center;
+}
+
+.todo-listItems th {
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ddd;
+}
+
+.todo-listItems tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.todo-listItems tr:hover {
+  background-color: #f5f5f5;
+}
+
+.update-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.update-new-input {
+  margin-right: 10px;
+}
+
+.update-new-btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.update-new-btn:hover {
+  background-color: #45a049;
+}
+
+.update-item,
+.delete-item {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 5px;
+  border-radius: 4px;
+}
+
+.update-item {
+  background-color: #4a94c5 !important;
+}
+
+.update-item:hover,
+.delete-item:hover {
+  background-color: #d32f2f;
+}
