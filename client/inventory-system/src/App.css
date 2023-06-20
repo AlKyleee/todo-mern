@@ -13,6 +13,18 @@ h1 {
   margin-bottom: 20px;
 }
 
+.new-input {
+  margin-right: 10px;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.search-input{
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 14px;
+}
+
 .todo-listItems {
   border-collapse: collapse;
   width: 100%;
@@ -47,7 +59,8 @@ h1 {
   margin-right: 10px;
 }
 
-.update-new-btn {
+.update-new-btn,
+.new-button {
   background-color: #4caf50;
   color: white;
   border: none;
